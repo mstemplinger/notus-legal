@@ -14,9 +14,9 @@
   <a href="impressum.html">Impressum</a>
 </nav>
 <h1>Datenschutzerklärung</h1>
-<p class="date">Stand: August 2026</p>
-<p class="lead">Notus verarbeitet keine personenbezogenen Daten auf Servern.
-Alles bleibt auf deinem Gerät.</p>
+<p class="date">Stand: September 2026</p>
+<p class="lead">Notus speichert deine Noten und Stundenpläne ausschließlich auf deinem Gerät.
+Das Gerät verlässt nur, was du selbst auslöst: das Foto beim Stundenplan-Scan.</p>
 
 <h2>Verantwortlicher</h2>
 <address>
@@ -32,18 +32,53 @@ E-Mail: <a href="mailto:tobi@triline.de">tobi@triline.de</a>
 Noten, Notengruppen und deine Einstellungen.</p>
 <p>Diese Daten werden in einer Datei im geschützten Speicherbereich der App auf deinem
 Gerät abgelegt. Sie verlassen das Gerät nicht, außer du exportierst oder teilst sie selbst
-aktiv.</p>
+aktiv &mdash; oder du benutzt den Stundenplan-Scan, der weiter unten beschrieben ist.</p>
 
-<h2>Keine Übertragung an Dritte</h2>
+<h2>Kein Tracking, keine Werbung</h2>
 <p>Die App enthält keine Analyse- oder Tracking-Werkzeuge, keine Werbung, keine
-Drittanbieter-Bibliotheken und keine Benutzerkonten. Es werden keine Verbindungen zu
-Servern des Anbieters aufgebaut, weil es keine gibt.</p>
-<p>Entsprechend werden in der App-Store-Datenschutzauskunft keine Datenarten als erhoben
-angegeben („Data Not Collected“).</p>
+Werbe-Bibliotheken und keine Benutzerkonten. Es findet keine Profilbildung statt, und es
+werden keine Daten an Werbenetzwerke weitergegeben.</p>
+
+<h2>Stundenplan-Scan</h2>
+<p>Seit Version&nbsp;1.2 kannst du deinen Stundenplan abfotografieren, statt ihn von Hand
+einzutragen. Diese Funktion ist die einzige, bei der Daten dein Gerät verlassen. Sie läuft
+nur, wenn du sie selbst startest.</p>
+<p><strong>Was übertragen wird:</strong> das Foto des Stundenplans, die Namen deiner
+angelegten Fächer (damit erkannte Kürzel zugeordnet werden können), die eingestellte
+Sprache, eine Zufallskennung deiner Installation sowie &mdash; nach einem Kauf &mdash; der
+Kaufbeleg von Apple. Ein Foto eines Stundenplans kann deinen Namen oder deine Klasse
+enthalten, wenn sie darauf gedruckt sind.</p>
+<p><strong>Wohin:</strong> verschlüsselt an einen Server des Anbieters, der bei der Hetzner
+Online GmbH in Deutschland betrieben wird. Von dort wird das Foto an die Programmier&shy;schnittstelle
+von Anthropic PBC (Claude, Vereinigte Staaten) weitergegeben, die den Plan ausliest. Das
+Ergebnis kommt denselben Weg zurück und wird auf deinem Gerät gespeichert.</p>
+<p><strong>Was gespeichert wird:</strong> Der Server speichert das Foto nicht. Gespeichert
+werden nur die Zufallskennung deiner Installation, damit der eine Gratis-Scan je Gerät
+gezählt werden kann, und nach einem Kauf die Kaufkennung von Apple mit Zeitstempeln, um die
+Zahl der Scans pro Monat zu begrenzen. Anthropic speichert Anfragen nach eigenen Angaben nur
+vorübergehend zur Missbrauchskontrolle, in der Regel bis zu 30&nbsp;Tage, und nutzt sie
+nicht zum Training von Modellen.</p>
+<p><strong>Rechtsgrundlage:</strong> Art.&nbsp;6 Abs.&nbsp;1 lit.&nbsp;b DSGVO, weil du die
+Funktion selbst anforderst und die Verarbeitung zu ihrer Erbringung nötig ist. Die
+Übermittlung in die Vereinigten Staaten stützt sich auf die Standardvertragsklauseln der
+Europäischen Kommission. Wenn du das nicht möchtest, benutze den Scan nicht und trage
+deinen Stundenplan von Hand ein; alle übrigen Funktionen bleiben davon unberührt.</p>
+
+<h2>In-App-Kauf</h2>
+<p>Der erste Scan ist kostenlos. Danach schaltet ein einmaliger Kauf die Funktion dauerhaft
+frei. Der Kauf wird vollständig von Apple abgewickelt. Der Anbieter erhält keine
+Zahlungsdaten, sondern nur den von Apple signierten Beleg, aus dem hervorgeht, dass ein
+gültiger Kauf vorliegt.</p>
 
 <h2>Berechtigungen</h2>
-<p>Notus fragt keine Systemberechtigungen ab — weder Kamera, Mikrofon, Standort, Kontakte
-noch Mitteilungen.</p>
+<p>Notus fragt nur nach Berechtigungen, wenn du eine Funktion benutzt, die sie braucht.
+Mikrofon, Standort und Kontakte werden nie abgefragt.</p>
+<ul>
+<li><strong>Kamera und Fotos</strong> für den Stundenplan-Scan. Die App bekommt nur das
+eine Bild, das du aufnimmst oder auswählst.</li>
+<li><strong>Kalender</strong>, wenn du eine Klausur als Termin einträgst. Die Termine
+entstehen direkt in deinem Kalender auf dem Gerät, es geht dafür nichts an den Anbieter.</li>
+</ul>
 <p>Beim Import einer Datei erhält die App über die Dateiauswahl von iOS Zugriff auf genau
 die eine Datei, die du auswählst. Der Inhalt wird nur zum Anlegen des Schuljahres gelesen
 und nicht weitergegeben.</p>
@@ -57,10 +92,17 @@ nicht vom Anbieter dieser App. Es gelten die Datenschutzbestimmungen von Apple.<
 <p>Unter <em>Einstellungen → Daten → Alle Daten löschen</em> entfernst du sämtliche Inhalte
 unwiderruflich. Beim Löschen der App werden alle Daten mit entfernt.</p>
 
+<h2>Löschung der Serverdaten</h2>
+<p>Die Zufallskennung deiner Installation verschwindet, sobald du die App löschst; die
+Kopie auf dem Server verfällt spätestens nach zwölf Monaten ohne Nutzung. Die Kaufkennung
+und ihre Zeitstempel werden nach dreißig Tagen entfernt, weil sie danach für die
+Monatsgrenze nicht mehr gebraucht werden. Auf Wunsch löschen wir beides sofort, schreib
+uns dazu an die oben genannte Adresse.</p>
+
 <h2>Deine Rechte</h2>
-<p>Da der Anbieter keine personenbezogenen Daten von dir erhebt oder speichert, liegen ihm
-auch keine Daten vor, über die Auskunft erteilt oder die berichtigt oder gelöscht werden
-könnten.</p>
+<p>Solange du den Stundenplan-Scan nicht benutzt, liegen dem Anbieter keinerlei Daten von
+dir vor. Benutzt du ihn, betrifft das die im Abschnitt „Stundenplan-Scan“ genannten
+Angaben.</p>
 <p>Dir stehen nach DSGVO grundsätzlich Rechte auf Auskunft (Art.&nbsp;15), Berichtigung
 (Art.&nbsp;16), Löschung (Art.&nbsp;17), Einschränkung der Verarbeitung (Art.&nbsp;18),
 Datenübertragbarkeit (Art.&nbsp;20) und Widerspruch (Art.&nbsp;21) zu, ebenso ein
